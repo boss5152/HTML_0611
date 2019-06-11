@@ -10,7 +10,7 @@ A. vscode
 		5. Bracket Pair Colorizer
 
 	
-	-----
+	------
 
 B. 快速鍵 (Windows)：https://code.visualstudio.com/docs/getstarted/keybindings
    上述網址開啟後，請往下找到 Keyboard Shortcuts Reference 段落
