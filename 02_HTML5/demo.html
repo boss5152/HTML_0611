@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style type="text/css">
+            table,
+            th,
+            td{
+                border: 1px solid blue;
+            }
+
+            .opname{
+                color:red;
+                text-align:center;
+            }
+
+            .desc{
+                width:200px;
+                color:white;
+            }
+
+            body{
+                background-image:url("img/backimg.jpg");
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 製作一個table -->
+        <table>
+            <tr>
+                <td colspan="4" class="opname">海賊王人物列表</td>
+                <!-- <td>B</td> -->
+                <!-- <td>C</td> -->
+                <!-- <td>D</td> -->
+            </tr>
+            <tr>
+                <td rowspan="2"><img src="img/op_01.jpg"></td>
+                <td class="opname">魯夫</td>
+                <td rowspan="2"><img src="img/op_02.jpg"></td>
+                <td class="opname">索龍</td>
+            </tr>
+            <tr>
+                <td class="desc">這一堂課會學習到：
+                        HTML
+                        HTML的全名是HyperText Markup Language，編寫網頁的語言
+                        CSS
+                        CSS 的全名為Cascading Style Sheets，是一種樣式表(Stylesheet) 語言
+                        JavaScript
+                        通常縮寫為JS，一種程式語言，能夠使網頁動態更新內容、控制多媒體，處理網頁前端的邏輯判斷等等
+                        jQuery
+                        是一個函式庫</td>
+                <td class="desc">J</td>
+                <!-- <td>K</td> -->
+                <!-- <td>L</td> -->
+            </tr>
+        </table>
+
+    </body>
+</html>
