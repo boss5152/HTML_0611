@@ -38,11 +38,57 @@
             <label for="phone">電話</label>
             <input type="text" id="phone">
         </div>
-        性別 :
-        <input type="radio" id="male" name="gender"> 
-        <label for="male">男</label>
-        <input type="radio" id="female" name="gender">
-        <label for="female">女</label>
+        <div>
+            性別 :
+            <input type="radio" id="male" name="gender"> 
+            <label for="male">男</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">女</label>
+        </div>
+        <div>
+            <label for="birthday">出生日期 : </label>
+            <input type="date" id="birthday">
+        </div>
+        <div>
+            <label for="use_app">使用過那些軟體(多選) : </label>
+            <input type="checkbox" name="Word">Word
+            <input type="checkbox" name="Excel">Excel
+            <input type="checkbox" name="PowerPoint">PowerPoint
+            <input type="checkbox" name="VisualBasicCode">Visual Basic Code
+            <input type="checkbox" name="PHP">PHP
+            <input type="checkbox" name="Mysql">Mysql
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+        </div>
+        <div>
+            <label for="color">最喜歡的顏色</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="height">身高(cm)</label>
+            <input type="range" id="height" min="140" max="200" step="1" oninput="outputUpdate(value)">
+            <output id="result"></output>
+        </div>
+        <div>
+            <label for="city">居住地</label>
+            <select id="city" name="cityList">
+                <optgroup label="台北">台北</optgroup>
+                <option value="中山">中山</option>
+                <option value="淡水">淡水</option>
+                <option value="南港">南港</option>
+                <optgroup label="台中">台中</optgroup>
+                <option value="中區">中區</option>
+                <option value="南屯區">南屯區</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="送出通訊錄">
+        </div>
+
+
+        
         
 
 
